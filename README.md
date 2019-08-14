@@ -7,4 +7,5 @@ This application is based on the blog post "Introducing Layout for Material-UI",
 * Storybook: https://siriwatknp.github.io/mui-layout/?path=/story/welcome--introduction
 
 ## Notes
+* This project uses `yarn` to manage packages
 * ...

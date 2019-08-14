@@ -1,0 +1,39 @@
+{
+  "name": "mui-layout",
+  "version": "1.0.0",
+  "description": "A simple demo app for practice making a responsive dashboard / layout with Material UI and Next JS.",
+  "main": "pages/index.js",
+  "scripts": {
+    "pretest": "yarn lint",
+    "test": "yarn unit-test",
+    "lint": "eslint . --ext .js,.jsx",
+    "dev": "next",
+    "build": "next build",
+    "export": "yarn build && next export",
+    "start": "next start",
+    "unit-test": "NODE_ENV=test jest -c .jest-config.json --verbose false",
+    "unit-test-w": "NODE_ENV=test jest -c .jest-config.json --watch",
+    "storybook": "start-storybook -s ./ -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjm-practice/mui-layout.git"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "material-ui",
+    "jest"
+  ],
+  "author": "Steve Marsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjm-practice/mui-layout/issues"
+  },
+  "homepage": "https://github.com/sjm-practice/mui-layout#readme",
+  "dependencies": {
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
