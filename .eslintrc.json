@@ -1,0 +1,88 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "prettier",
+    "react-hooks"
+  ],
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "alert": true,
+    "self": true,
+    "jest": true,
+    "describe": true,
+    "it": true,
+    "afterAll": true,
+    "expect": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "spread": true,
+      "modules": true,
+      "blockBindings": true,
+      "destructuring": true,
+      "arrowFunctions": true
+    }
+  },
+  "settings": {},
+  "rules": {
+    "semi": "error",
+    "no-console": "off",
+    "no-alert": "off",
+    "no-multi-spaces": [
+      "warn",
+      {
+        "ignoreEOLComments": true
+      }
+    ],
+    "quotes": [
+      "warn",
+      "double",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-restricted-globals": "off",
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_id",
+          "_execute",
+          "_sleepForMs"
+        ]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "printWidth": 90,
+        "singleQuote": false,
+        "tabWidth": 2,
+        "trailingComma": "all",
+        "useTabs": false
+      }
+    ],
+    "jsx-a11y/no-static-element-interactions": "warn",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/accessible-emoji": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
