@@ -1,21 +1,20 @@
 import React from "react";
-import { storiesOf } from "@storybook/react";
+import PropTypes from "prop-types";
 import ChevronLeft from "@material-ui/icons/ChevronLeft";
 import ChevronRight from "@material-ui/icons/ChevronRight";
 import MenuRounded from "@material-ui/icons/MenuRounded";
-import Root from "../../components/Layout/Root";
-import Header from "../../components/Layout/Header";
-import Nav from "../../components/Layout/Nav";
-import Content from "../../components/Layout/Content";
-import Footer from "../../components/Layout/Footer";
-import HeaderContent from "../../components/HeaderContent";
-import FooterContent from "../../components/FooterContent";
-import SampleContent from "../../components/SampleContent";
-import NavHeader from "../../components/NavHeader";
-import NavContent from "../../components/NavContent";
+import Root from "./Root";
+import Header from "./Header";
+import Nav from "./Nav";
+import Content from "./Content";
+import Footer from "./Footer";
+import HeaderContent from "../HeaderContent";
+import FooterContent from "../FooterContent";
+import NavHeader from "../NavHeader";
+import NavContent from "../NavContent";
 import { createContentBasedLayout } from "../../utils/presets";
 
-storiesOf("Page Layout/", module).add("Content Based", () => (
+const Layout = ({ children }) => (
   <Root config={createContentBasedLayout()}>
     <Header renderMenuIcon={open => (open ? <ChevronLeft /> : <MenuRounded />)}>
       {({ screen, collapsed }) => <HeaderContent screen={screen} collapsed={collapsed} />}
@@ -26,11 +25,15 @@ storiesOf("Page Layout/", module).add("Content Based", () => (
     >
       <NavContent />
     </Nav>
-    <Content>
-      <SampleContent />
-    </Content>
+    <Content>{children}</Content>
     <Footer>
       <FooterContent />
     </Footer>
   </Root>
-));
+);
+
+Layout.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+    .isRequired,
+};
+export default Layout;

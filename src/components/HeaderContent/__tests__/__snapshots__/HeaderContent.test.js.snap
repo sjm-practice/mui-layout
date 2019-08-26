@@ -1,42 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<FooterContent /> Should match Snapshot 1`] = `
-<DocumentFragment>
-  <p
-    class="MuiTypography-root HeaderEx-header-1 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
-  >
-    Layout v1.1
-  </p>
-  <div
-    class="HeaderEx-grow-2"
-  />
-  <div
-    class="HeaderEx-search-3"
-  >
-    <div
-      class="HeaderEx-searchIcon-4"
-    >
-      <span
-        aria-hidden="true"
-        class="material-icons MuiIcon-root"
-      >
-        search
-      </span>
-    </div>
-    <div
-      class="MuiInputBase-root HeaderEx-inputRoot-5"
-    >
-      <input
-        class="MuiInputBase-input HeaderEx-inputInput-6"
-        placeholder="Search…"
-        type="text"
-        value=""
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
 exports[`<HeaderContent /> Should match Snapshot - screen 'md' 1`] = `
 <DocumentFragment>
   <p
@@ -134,18 +97,18 @@ exports[`<HeaderContent /> Should match Snapshot - screen 'md' 1`] = `
 exports[`<HeaderContent /> Should match Snapshot - screen 'sm' 1`] = `
 <DocumentFragment>
   <p
-    class="MuiTypography-root HeaderContent-header-1 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
+    class="MuiTypography-root HeaderContent-header-86 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
   >
     Layout v1.1
   </p>
   <div
-    class="HeaderContent-grow-2"
+    class="HeaderContent-grow-87"
   />
   <div
-    class="HeaderContent-search-3"
+    class="HeaderContent-search-88"
   >
     <div
-      class="HeaderContent-searchIcon-4"
+      class="HeaderContent-searchIcon-89"
     >
       <span
         aria-hidden="true"
@@ -155,10 +118,10 @@ exports[`<HeaderContent /> Should match Snapshot - screen 'sm' 1`] = `
       </span>
     </div>
     <div
-      class="MuiInputBase-root HeaderContent-inputRoot-5"
+      class="MuiInputBase-root HeaderContent-inputRoot-90"
     >
       <input
-        class="MuiInputBase-input HeaderContent-inputInput-6"
+        class="MuiInputBase-input HeaderContent-inputInput-91"
         placeholder="Search…"
         type="text"
         value=""
@@ -259,42 +222,5 @@ exports[`<HeaderContent /> Should match Snapshot - screen 'xs' 1`] = `
       class="MuiTouchRipple-root"
     />
   </button>
-</DocumentFragment>
-`;
-
-exports[`<HeaderContent /> Should match Snapshot 1`] = `
-<DocumentFragment>
-  <p
-    class="MuiTypography-root HeaderEx-header-1 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
-  >
-    Layout v1.1
-  </p>
-  <div
-    class="HeaderEx-grow-2"
-  />
-  <div
-    class="HeaderEx-search-3"
-  >
-    <div
-      class="HeaderEx-searchIcon-4"
-    >
-      <span
-        aria-hidden="true"
-        class="material-icons MuiIcon-root"
-      >
-        search
-      </span>
-    </div>
-    <div
-      class="MuiInputBase-root HeaderEx-inputRoot-5"
-    >
-      <input
-        class="MuiInputBase-input HeaderEx-inputInput-6"
-        placeholder="Search…"
-        type="text"
-        value=""
-      />
-    </div>
-  </div>
 </DocumentFragment>
 `;
