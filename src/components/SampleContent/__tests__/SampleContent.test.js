@@ -3,11 +3,11 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import FooterContent from "../index";
+import SampleContent from "../index";
 
-describe("<FooterContent />", () => {
+describe("<SampleContent />", () => {
   it("Should match Snapshot", () => {
-    const { asFragment } = render(<FooterContent />);
+    const { asFragment } = render(<SampleContent />);
 
     expect(asFragment()).toMatchSnapshot();
   });

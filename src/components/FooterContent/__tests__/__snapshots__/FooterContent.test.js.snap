@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterContent /> Should match Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="max-width: 700px; margin: auto; text-align: center;"
+  >
+    <span
+      class="MuiTypography-root MuiTypography-caption MuiTypography-alignCenter"
+    >
+      © Copyright 2019
+    </span>
+    <hr
+      class="MuiDivider-root"
+      style="margin: 24px auto; width: 60px;"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+        >
+          About
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+        >
+          Blog
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+        >
+          Terms & Conditions
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+        >
+          Contact us
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
