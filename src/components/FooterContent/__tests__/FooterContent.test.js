@@ -3,11 +3,11 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import Footer from "../Footer";
+import FooterContent from "../index";
 
 describe("With React Testing Library", () => {
   it.skip('Should show "Welcome!!"', () => {
-    const { getByText } = render(<Footer />);
+    const { getByText } = render(<FooterContent />);
 
     expect(getByText("Welcome!!")).not.toBeNull();
   });
@@ -15,7 +15,7 @@ describe("With React Testing Library", () => {
 
 describe("With React Testing Library Snapshot", () => {
   it.skip("Should match Snapshot", () => {
-    const { asFragment } = render(<Footer />);
+    const { asFragment } = render(<FooterContent />);
 
     expect(asFragment()).toMatchSnapshot();
   });

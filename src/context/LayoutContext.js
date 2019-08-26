@@ -1,12 +1,12 @@
 import React from "react";
-import defaultLayout from "../components/Layout/defaultLayout";
+import { createDefaultLayout } from "../utils/presets";
 
 const LayoutContext = React.createContext({
   opened: false,
   setOpened: () => {},
   collapsed: false,
   setCollapsed: () => {},
-  ...defaultLayout,
+  ...createDefaultLayout(),
 });
 
 export default LayoutContext;
