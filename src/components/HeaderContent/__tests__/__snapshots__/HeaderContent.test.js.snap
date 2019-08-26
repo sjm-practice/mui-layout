@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterContent /> Should match Snapshot 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root HeaderEx-header-1 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
+  >
+    Layout v1.1
+  </p>
+  <div
+    class="HeaderEx-grow-2"
+  />
+  <div
+    class="HeaderEx-search-3"
+  >
+    <div
+      class="HeaderEx-searchIcon-4"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        search
+      </span>
+    </div>
+    <div
+      class="MuiInputBase-root HeaderEx-inputRoot-5"
+    >
+      <input
+        class="MuiInputBase-input HeaderEx-inputInput-6"
+        placeholder="Search…"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<HeaderContent /> Should match Snapshot - screen 'md' 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root HeaderContent-header-171 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
+  >
+    Layout v1.1
+  </p>
+  <div
+    class="HeaderContent-grow-172"
+  />
+  <div
+    class="HeaderContent-search-173"
+  >
+    <div
+      class="HeaderContent-searchIcon-174"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        search
+      </span>
+    </div>
+    <div
+      class="MuiInputBase-root HeaderContent-inputRoot-175"
+    >
+      <input
+        class="MuiInputBase-input HeaderContent-inputInput-176"
+        placeholder="Search…"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiIconButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        favorite
+      </span>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiIconButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        phone
+      </span>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiIconButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        camera
+      </span>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<HeaderContent /> Should match Snapshot - screen 'sm' 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root HeaderContent-header-1 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
+  >
+    Layout v1.1
+  </p>
+  <div
+    class="HeaderContent-grow-2"
+  />
+  <div
+    class="HeaderContent-search-3"
+  >
+    <div
+      class="HeaderContent-searchIcon-4"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        search
+      </span>
+    </div>
+    <div
+      class="MuiInputBase-root HeaderContent-inputRoot-5"
+    >
+      <input
+        class="MuiInputBase-input HeaderContent-inputInput-6"
+        placeholder="Search…"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiIconButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        favorite
+      </span>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiIconButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        more_vert
+      </span>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<HeaderContent /> Should match Snapshot - screen 'xs' 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root HeaderContent-header-1 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
+  >
+    Layout v1.1
+  </p>
+  <div
+    class="HeaderContent-grow-2"
+  />
+  <div
+    class="HeaderContent-search-3"
+  >
+    <div
+      class="HeaderContent-searchIcon-4"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        search
+      </span>
+    </div>
+    <div
+      class="MuiInputBase-root HeaderContent-inputRoot-5"
+    >
+      <input
+        class="MuiInputBase-input HeaderContent-inputInput-6"
+        placeholder="Search…"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiIconButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        more_vert
+      </span>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<HeaderContent /> Should match Snapshot 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root HeaderEx-header-1 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap"
+  >
+    Layout v1.1
+  </p>
+  <div
+    class="HeaderEx-grow-2"
+  />
+  <div
+    class="HeaderEx-search-3"
+  >
+    <div
+      class="HeaderEx-searchIcon-4"
+    >
+      <span
+        aria-hidden="true"
+        class="material-icons MuiIcon-root"
+      >
+        search
+      </span>
+    </div>
+    <div
+      class="MuiInputBase-root HeaderEx-inputRoot-5"
+    >
+      <input
+        class="MuiInputBase-input HeaderEx-inputInput-6"
+        placeholder="Search…"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
