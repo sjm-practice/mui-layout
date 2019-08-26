@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavHeader /> Should match Snapshot - collapsed 1`] = `
+<DocumentFragment>
+  <div
+    style="padding: 8px; transition: 0.3s;"
+  >
+    <div
+      class="MuiAvatar-root MuiAvatar-colorDefault"
+      style="width: 48px; height: 48px; transition: 0.3s;"
+    />
+    <div
+      style="padding-bottom: 16px;"
+    />
+    <h6
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap"
+    >
+      Sandra Adams
+    </h6>
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap MuiTypography-gutterBottom"
+    >
+      sandra_88@gmail.com
+    </p>
+  </div>
+  <hr
+    class="MuiDivider-root"
+  />
+</DocumentFragment>
+`;
+
+exports[`<NavHeader /> Should match Snapshot - not collapsed 1`] = `
+<DocumentFragment>
+  <div
+    style="padding: 16px; transition: 0.3s;"
+  >
+    <div
+      class="MuiAvatar-root MuiAvatar-colorDefault"
+      style="width: 60px; height: 60px; transition: 0.3s;"
+    />
+    <div
+      style="padding-bottom: 16px;"
+    />
+    <h6
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap"
+    >
+      Sandra Adams
+    </h6>
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-noWrap MuiTypography-gutterBottom"
+    >
+      sandra_88@gmail.com
+    </p>
+  </div>
+  <hr
+    class="MuiDivider-root"
+  />
+</DocumentFragment>
+`;
