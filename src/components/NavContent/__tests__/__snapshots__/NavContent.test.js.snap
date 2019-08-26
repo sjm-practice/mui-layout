@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavContent /> Should match Snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    class="MuiList-root MuiList-padding"
+  >
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button Mui-selected"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          folder
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          My Files
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          people
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Shared with me
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          star
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Starred
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          schedule
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Recent
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          offline_pin
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Offline
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          publish
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Uploads
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          backup
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Backups
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          delete
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Trash
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <hr
+      class="MuiDivider-root"
+      style="margin: 12px 0px;"
+    />
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <span
+          aria-hidden="true"
+          class="material-icons MuiIcon-root"
+        >
+          settings
+        </span>
+      </div>
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Settings & account
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+  </ul>
+</DocumentFragment>
+`;
