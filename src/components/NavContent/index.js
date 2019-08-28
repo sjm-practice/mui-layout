@@ -3,64 +3,80 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-import Icon from "@material-ui/core/Icon";
+import ListSubheader from "@material-ui/core/ListSubheader";
 import Divider from "@material-ui/core/Divider";
+import DashboardIcon from "@material-ui/icons/Dashboard";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import PeopleIcon from "@material-ui/icons/People";
+import BarChartIcon from "@material-ui/icons/BarChart";
+import LayersIcon from "@material-ui/icons/Layers";
+import AssignmentIcon from "@material-ui/icons/Assignment";
 
-const list = [
-  {
-    primaryText: "My Files",
-    icon: "folder",
-  },
-  {
-    primaryText: "Shared with me",
-    icon: "people",
-  },
-  {
-    primaryText: "Starred",
-    icon: "star",
-  },
-  {
-    primaryText: "Recent",
-    icon: "schedule",
-  },
-  {
-    primaryText: "Offline",
-    icon: "offline_pin",
-  },
-  {
-    primaryText: "Uploads",
-    icon: "publish",
-  },
-  {
-    primaryText: "Backups",
-    icon: "backup",
-  },
-  {
-    primaryText: "Trash",
-    icon: "delete",
-  },
-];
-const NavContent = () => (
+const FunctionsList = () => (
   <List>
-    {list.map(({ primaryText, icon }, i) => (
-      <ListItem key={primaryText} selected={i === 0} button>
-        <ListItemIcon>
-          <Icon>{icon}</Icon>
-        </ListItemIcon>
-        <ListItemText primary={primaryText} primaryTypographyProps={{ noWrap: true }} />
-      </ListItem>
-    ))}
-    <Divider style={{ margin: "12px 0" }} />
     <ListItem button>
       <ListItemIcon>
-        <Icon>settings</Icon>
+        <DashboardIcon />
       </ListItemIcon>
-      <ListItemText
-        primary="Settings & account"
-        primaryTypographyProps={{ noWrap: true }}
-      />
+      <ListItemText primary="Dashboard" />
+    </ListItem>
+    <ListItem button>
+      <ListItemIcon>
+        <ShoppingCartIcon />
+      </ListItemIcon>
+      <ListItemText primary="Orders" />
+    </ListItem>
+    <ListItem button>
+      <ListItemIcon>
+        <PeopleIcon />
+      </ListItemIcon>
+      <ListItemText primary="Customers" />
+    </ListItem>
+    <ListItem button>
+      <ListItemIcon>
+        <BarChartIcon />
+      </ListItemIcon>
+      <ListItemText primary="Reports" />
+    </ListItem>
+    <ListItem button>
+      <ListItemIcon>
+        <LayersIcon />
+      </ListItemIcon>
+      <ListItemText primary="Integrations" />
     </ListItem>
   </List>
+);
+
+const SavedReportsList = () => (
+  <List>
+    <ListSubheader inset>Saved reports</ListSubheader>
+    <ListItem button>
+      <ListItemIcon>
+        <AssignmentIcon />
+      </ListItemIcon>
+      <ListItemText primary="Current month" />
+    </ListItem>
+    <ListItem button>
+      <ListItemIcon>
+        <AssignmentIcon />
+      </ListItemIcon>
+      <ListItemText primary="Last quarter" />
+    </ListItem>
+    <ListItem button>
+      <ListItemIcon>
+        <AssignmentIcon />
+      </ListItemIcon>
+      <ListItemText primary="Year-end sale" />
+    </ListItem>
+  </List>
+);
+
+const NavContent = () => (
+  <>
+    <FunctionsList />
+    <Divider />
+    <SavedReportsList />
+  </>
 );
 
 export default NavContent;
