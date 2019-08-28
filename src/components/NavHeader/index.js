@@ -16,10 +16,10 @@ const NavHeaderEx = ({ collapsed }) => (
       />
       <div style={{ paddingBottom: 16 }} />
       <Typography variant="h6" noWrap>
-        Sandra Adams
+        Test User
       </Typography>
       <Typography color="textSecondary" noWrap gutterBottom>
-        sandra_88@gmail.com
+        test.user@gmail.com
       </Typography>
     </div>
     <Divider />
