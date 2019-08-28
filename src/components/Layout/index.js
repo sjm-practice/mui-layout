@@ -12,10 +12,30 @@ import HeaderContent from "../HeaderContent";
 import FooterContent from "../FooterContent";
 import NavHeader from "../NavHeader";
 import NavContent from "../NavContent";
-import { createContentBasedLayout } from "../../utils/presets";
+// import { createFixedLayout } from "../../utils/presets";
+
+const config = {
+  navAnchor: "left",
+  navVariant: {
+    xs: "temporary",
+    sm: "persistent",
+    md: "persistent",
+  },
+  navWidth: {
+    xs: 240,
+    sm: 256,
+    md: 256,
+  },
+  collapsible: true,
+  collapsedWidth: 64,
+  clipped: true,
+  headerPosition: "relative",
+  squeezed: true,
+  footerShrink: true,
+};
 
 const Layout = ({ children }) => (
-  <Root config={createContentBasedLayout()}>
+  <Root config={config}>
     <Header renderMenuIcon={open => (open ? <ChevronLeft /> : <MenuRounded />)}>
       {({ screen, collapsed }) => <HeaderContent screen={screen} collapsed={collapsed} />}
     </Header>
