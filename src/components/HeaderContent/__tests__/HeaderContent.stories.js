@@ -4,5 +4,4 @@ import HeaderContent from "../index";
 
 storiesOf("Components/Layout/HeaderContent", module)
   .add("xs", () => <HeaderContent screen="xs" />)
-  .add("sm", () => <HeaderContent screen="sm" />)
-  .add("md (and up)", () => <HeaderContent screen="md" />);
+  .add("sm (and up)", () => <HeaderContent screen="sm" />);

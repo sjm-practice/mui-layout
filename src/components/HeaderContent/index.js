@@ -3,8 +3,11 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import { isWidthUp } from "@material-ui/core/withWidth";
 import InputBase from "@material-ui/core/InputBase";
-import Icon from "@material-ui/core/Icon";
 import IconButton from "@material-ui/core/IconButton";
+import SearchIcon from "@material-ui/icons/Search";
+import MoreVertIcon from "@material-ui/icons/MoreVert";
+import NotificationsIcon from "@material-ui/icons/Notifications";
+import PowerSettingsNewIcon from "@material-ui/icons/PowerSettingsNew";
 import Typography from "@material-ui/core/Typography";
 
 const styles = ({ spacing, transitions, breakpoints, palette, shape }) => ({
@@ -69,7 +72,7 @@ const HeaderContent = ({ classes, screen }) => (
     <div className={classes.grow} />
     <div className={classes.search}>
       <div className={classes.searchIcon}>
-        <Icon>search</Icon>
+        <SearchIcon />
       </div>
       <InputBase
         placeholder="Search…"
@@ -81,29 +84,16 @@ const HeaderContent = ({ classes, screen }) => (
     </div>
     {screen === "xs" && (
       <IconButton>
-        <Icon>more_vert</Icon>
+        <MoreVertIcon />
       </IconButton>
     )}
-    {screen === "sm" && (
+    {isWidthUp("sm", screen) && (
       <>
         <IconButton>
-          <Icon>favorite</Icon>
+          <NotificationsIcon />
         </IconButton>
         <IconButton>
-          <Icon>more_vert</Icon>
-        </IconButton>
-      </>
-    )}
-    {isWidthUp("md", screen) && (
-      <>
-        <IconButton>
-          <Icon>favorite</Icon>
-        </IconButton>
-        <IconButton>
-          <Icon>phone</Icon>
-        </IconButton>
-        <IconButton>
-          <Icon>camera</Icon>
+          <PowerSettingsNewIcon />
         </IconButton>
       </>
     )}
