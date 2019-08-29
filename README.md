@@ -9,3 +9,24 @@ The application layout is based on the free MUI Theme ["Devias Kit - Admin Dashb
   * Use `material-ui/core/Link` for external links / urls
   * Use `src/components/Link` for app / page routing 
 
+## File Structure
+* `src/components' are common components
+* Components specific to a component, go in component subdirectory
+  * eg. `...Sidebar/components/SidebarNav`
+
+
+directory structure tree here.
+
+## Coding Conventions & Standards
+
+for reference / starting points, see...
+https://medium.com/swlh/how-to-write-great-react-c4f23f2f3f4f
+https://medium.com/better-programming/14-beneficial-tips-to-write-cleaner-code-in-react-apps-a167798fa1ba
+https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
+
+(keep this list short, easy to read, easy to follow; move this list to a different document or location at some point. gist? separate .md?)
+
+* import order (each in alphabetical order)
+  * packages
+  * local
+  * blank line then layouts, views, components
