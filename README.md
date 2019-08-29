@@ -1,11 +1,11 @@
 # mui-layout
 A simple demo app for practice making a responsive dashboard / layout with Material UI and Next JS.
 
-This application is based on the blog post "Introducing Layout for Material-UI", by siriwatknp.
-* Medium: https://blog.bitsrc.io/introducing-layout-for-material-ui-329043618cb3
-* GitHub: https://github.com/siriwatknp/mui-layout
-* Storybook: https://siriwatknp.github.io/mui-layout/?path=/story/welcome--introduction
-
+The application layout is based on the free MUI Theme ["Devias Kit - Admin Dashboard"](https://themes.material-ui.com/themes/devias-kit/), by Devias.
+  
 ## Notes
 * This project uses `yarn` to manage packages
-* ...
+* The setup for use of material-ui is based on the [material-ui nextjs example](https://github.com/mui-org/material-ui/tree/master/examples/nextjs)
+  * Use `material-ui/core/Link` for external links / urls
+  * Use `src/components/Link` for app / page routing 
+
