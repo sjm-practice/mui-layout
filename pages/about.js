@@ -6,7 +6,7 @@ import MuiLink from "@material-ui/core/Link";
 
 import { Main as MainLayout } from "../src/layouts";
 import ProTip from "../src/components/ProTip";
-import Link from "../src/components/Link";
+import AnchorLink from "../src/components/AnchorLink";
 
 function Copyright() {
   return (
@@ -32,7 +32,7 @@ export default function About() {
           <Typography variant="h4" component="h1" gutterBottom>
             Next.js example
           </Typography>
-          <Link href="/">Go to the main page</Link>
+          <AnchorLink href="/">Go to the main page</AnchorLink>
           <ProTip />
           <Copyright />
         </Box>

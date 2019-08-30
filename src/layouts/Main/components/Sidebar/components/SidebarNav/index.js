@@ -5,7 +5,6 @@ import clsx from "clsx";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/styles";
 import { List, ListItem, Button, colors } from "@material-ui/core";
-// import Link from "../../../../../../components/Link";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -41,14 +40,6 @@ const useStyles = makeStyles(theme => ({
     },
   },
 }));
-
-// TODO: may not need this. may need the div & style.  ???
-// const CustomRouterLink = forwardRef((props, ref) => (
-//   <div ref={ref} style={{ flexGrow: 1 }}>
-//     <RouterLink {...props} />
-//   </div>
-// ));
-// <Button activeClassName={classes.active} className={classes.button}>
 
 const SidebarNav = props => {
   const { pages, className, ...rest } = props;

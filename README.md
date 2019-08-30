@@ -7,7 +7,7 @@ The application layout is based on the free MUI Theme ["Devias Kit - Admin Dashb
 * This project uses `yarn` to manage packages
 * The setup for use of material-ui is based on the [material-ui nextjs example](https://github.com/mui-org/material-ui/tree/master/examples/nextjs)
   * Use `material-ui/core/Link` for external links / urls
-  * Use `src/components/Link` for app / page routing 
+  * Use `src/components/AppLink` for app / page routing, that wraps things that go in an anchor (such as text, or images) 
 
 ## File Structure
 * `src/components' are common components

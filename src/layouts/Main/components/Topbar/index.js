@@ -14,7 +14,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import NotificationsIcon from "@material-ui/icons/NotificationsOutlined";
 import InputIcon from "@material-ui/icons/Input";
 
-import Link from "../../../../components/Link";
+import AnchorLink from "../../../../components/AnchorLink";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -38,11 +38,11 @@ const Topbar = props => {
   return (
     <AppBar {...rest} className={clsx(classes.root, className)}>
       <Toolbar>
-        <Link href="/">
+        <AnchorLink href="/">
           <Typography variant="h3" color="textPrimary" align="center">
             LOGO GOES HERE.
           </Typography>
-        </Link>
+        </AnchorLink>
         <div className={classes.flexGrow} />
         <Hidden mdDown>
           <IconButton color="inherit">
