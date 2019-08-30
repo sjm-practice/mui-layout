@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Should match Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-root-1"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1"
+    >
+      © 
+      <a
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+        href="https://avoinsights.com"
+        target="_blank"
+      >
+        AVO Insights
+      </a>
+      . 2019
+    </p>
+    <span
+      class="MuiTypography-root MuiTypography-caption"
+    >
+      From big initiatives to our SaaS product, we create useful Augmented Reality...
+    </span>
+  </div>
+</DocumentFragment>
+`;
