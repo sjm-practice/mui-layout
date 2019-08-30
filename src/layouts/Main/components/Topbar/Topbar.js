@@ -14,7 +14,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import NotificationsIcon from "@material-ui/icons/NotificationsOutlined";
 import InputIcon from "@material-ui/icons/Input";
 
-import AnchorLink from "../../../../components/AnchorLink";
+// TODO add alias for components folder
+import { AnchorLink } from "../../../../components";
 
 const useStyles = makeStyles(theme => ({
   root: {
