@@ -33,7 +33,16 @@
       "arrowFunctions": true
     }
   },
-  "settings": {},
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        [
+          "theme",
+          "./theme"
+        ]
+      ]
+    }
+  },
   "rules": {
     "semi": "error",
     "no-console": "off",

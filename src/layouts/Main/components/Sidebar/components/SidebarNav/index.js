@@ -7,6 +7,7 @@ import { makeStyles } from "@material-ui/styles";
 import { List, ListItem, Button, colors } from "@material-ui/core";
 // import Link from "../../../../../../components/Link";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const useStyles = makeStyles(theme => ({
   root: {},
@@ -53,6 +54,7 @@ const SidebarNav = props => {
   const { pages, className, ...rest } = props;
 
   const classes = useStyles();
+  const router = useRouter();
 
   return (
     <List {...rest} className={clsx(classes.root, className)}>
@@ -62,7 +64,7 @@ const SidebarNav = props => {
             <Button
               className={clsx({
                 [classes.button]: true,
-                [classes.active]: page.title === "Account",
+                [classes.active]: page.href === router.pathname,
               })}
             >
               <div className={classes.icon}>{page.icon}</div>

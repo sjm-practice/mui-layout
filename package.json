@@ -36,10 +36,12 @@
     "@material-ui/icons": "^4.2.1",
     "@material-ui/styles": "^4.3.3",
     "babel-eslint": "^10.0.3",
+    "chart.js": "^2.8.0",
     "clsx": "^1.0.4",
     "next": "^9.0.5",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
+    "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
