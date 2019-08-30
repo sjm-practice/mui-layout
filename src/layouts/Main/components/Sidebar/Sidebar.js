@@ -46,7 +46,7 @@ const Sidebar = props => {
     },
     {
       title: "Users",
-      href: "/",
+      href: "/users",
       icon: <PeopleIcon />,
     },
     {

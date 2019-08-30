@@ -1,11 +1,12 @@
 import React from "react";
 
 import { Main as MainLayout } from "../src/layouts";
-import { Welcome } from "../src/views";
+// TODO make alias for views folder
+import { UserList } from "../src/views";
 
 const AccountPage = () => (
   <MainLayout>
-    <Welcome />
+    <UserList />
   </MainLayout>
 );
 
