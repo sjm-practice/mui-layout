@@ -13,6 +13,7 @@ The application layout is based on the free MUI Theme ["Devias Kit - Admin Dashb
 * `src/components' are common components
 * Components specific to a component, go in component subdirectory
   * eg. `...Sidebar/components/SidebarNav`
+  * create an index.js for each component, which only contains import / export
 
 
 directory structure tree here.
